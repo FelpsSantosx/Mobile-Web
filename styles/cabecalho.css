@@ -1,0 +1,19 @@
+.cabecalho {
+    background-color: var(--preto);
+}
+
+.cabecalho__nav {
+    color: var(--prata);
+    display: flex;
+    justify-content: end;
+    gap: 50px;
+    padding: 0.5rem 2.5rem;
+}
+
+.cabecalho__sessão {
+    color: var(--prata);
+    font-size: 16px;
+    font-weight: 300;
+    padding: 0.5rem;
+    text-decoration: none;
+}

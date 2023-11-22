@@ -1,0 +1,171 @@
+.sessão__primary {
+    display: flex;
+    justify-content: space-around;
+    background-image: url("../assents/Apresentação1.png");
+    padding: 10rem 0;
+    background-repeat: no-repeat;
+}
+
+.primary__container {
+    padding: 2rem 30rem 2rem 6.25rem;
+    color: var(--prata);
+
+}
+
+.primary__titulo {
+    font-size: 30px;
+    font-weight: 800;
+    padding-bottom: 1rem;
+
+}
+
+.primary__paragrafo {
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.sessão__second {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.second__container {
+    padding: 2rem 6.25rem;
+}
+
+.second__titulo {
+    font-size: 18px;
+    font-weight: 800;
+    padding-bottom: 1rem;
+}
+
+.second__paragrafo {
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 1.5rem;
+}
+
+.sessão__third {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    background: var(--cinza-forte);
+    box-shadow: 0px 18px 18px 0px rgba(0, 0, 0, 0.25);
+    margin: 6rem;
+    padding: 2rem 0;
+}
+
+.sessão__third-texto {
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.card__container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card {
+    border-radius: 10px;
+    background: var(--preto);
+    box-shadow: 0px 18px 18px 0px rgba(0, 0, 0, 0.25);
+    margin: 5%;
+    padding: 3rem;
+}
+
+.descrição__cargo {
+    color: var(--ceu-azul);
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.descrição__media {
+    color: var(--ceu-azul);
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0.5rem;
+}
+
+.descrição__salario {
+    font-size: 16px;
+}
+
+.sessão__fourth {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    border-radius: 10px;
+    background: var(--preto);
+    margin: 6rem;
+    padding: 2rem 0;
+}
+
+.fourth__card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 7rem;
+}
+
+.fourth__descrição {
+    color: var(--ceu-azul);
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.fourth__sub-descrição {
+    color: var(--ceu-azul);
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0.5rem 0;
+}
+
+
+.fourth__texto {
+    font-size: 16px;
+    font-weight: 100;
+}
+
+.fourth__link {
+    margin-top: 0.5rem;
+    color: var(--prata);
+    text-decoration: none;
+    border-radius: 10px;
+    background-color: var(--ceu-azul);
+    padding: 0.8rem;
+}
+
+.sessão__extra {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+}
+
+.extra__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0 5rem;
+}
+
+.extra__titulo {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 800;
+    padding-bottom: 1rem;
+}
+
+.lista__extra {
+    padding: 0.5rem 2rem;
+}
+
+.lista__paragrafo {
+    font-size: 16px;
+    font-weight: 400;
+    margin: 1rem 0;
+}

@@ -1,0 +1,17 @@
+@import url("styles/cabecalho.css");
+@import url("styles/main.css");
+
+:root {
+    --prata: #E6E8FA;
+    --ceu-azul: #3299CC;
+    --preto: #000000;
+    --cinza-forte: #565656;
+    --fonte: "Poppins";
+    --cinza-fraco: #616469;
+}
+
+body {
+    background-color: var(--cinza-fraco);
+    color: var(--prata);
+    font-family: var(--fonte);
+}
