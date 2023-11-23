@@ -34,6 +34,11 @@
     padding: 2rem 6.25rem;
 }
 
+.second__div {
+    display: flex;
+    flex-direction: row;
+    }
+
 .second__titulo {
     font-size: 18px;
     font-weight: 800;
@@ -43,7 +48,11 @@
 .second__paragrafo {
     font-size: 16px;
     font-weight: 400;
-    padding-top: 1.5rem;
+    padding: 0 2rem;
+}
+
+p {
+    line-height: 1.5; /* Exemplo de valor, ajuste conforme necessário */
 }
 
 .sessão__third {
