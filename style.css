@@ -1,5 +1,6 @@
 @import url("styles/cabecalho.css");
 @import url("styles/main.css");
+@import url("styles/rodape.css");
 
 :root {
     --prata: #E6E8FA;

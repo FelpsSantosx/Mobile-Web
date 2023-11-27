@@ -1,5 +1,11 @@
 .cabecalho {
     background-color: var(--preto);
+    display: flex;
+    justify-content: space-around;
+}
+
+.dev__cabeçalho {
+    width:  50px;
 }
 
 .cabecalho__nav {
