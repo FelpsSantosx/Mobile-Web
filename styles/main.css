@@ -37,7 +37,7 @@
 .second__div {
     display: flex;
     flex-direction: row;
-    }
+}
 
 .second__titulo {
     font-size: 18px;
@@ -52,7 +52,7 @@
 }
 
 p {
-    line-height: 1.5; /* Exemplo de valor, ajuste conforme necessário */
+    line-height: 1.5;
 }
 
 .sessão__third {
@@ -146,6 +146,11 @@ p {
     border-radius: 10px;
     background-color: var(--ceu-azul);
     padding: 0.8rem;
+}
+
+.fourth__link:hover {
+    background-color: var(--prata);
+    color: var(--preto);
 }
 
 .sessão__extra {

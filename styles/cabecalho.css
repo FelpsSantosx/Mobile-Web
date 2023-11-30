@@ -16,6 +16,10 @@
     padding: 0.5rem 2.5rem;
 }
 
+.cabecalho__sessão:hover   {
+    color: var(--ceu-azul);
+}
+
 .cabecalho__sessão {
     color: var(--prata);
     font-size: 16px;
